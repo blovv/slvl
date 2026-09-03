@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "never_smm": {
+    "api_url": "https://neversmm.com/api/v2",
+    "api_key": "ns_6xnVdIdyp4kG63MHwDXBs4y8HS-eHc_0PX7xdN6b9AM",
+    "timeout": 30
+  },
+  "services": {
+    "views": 1688,
+    "likes": 2015,
+    "saves": 2014,
+    "shares": 1688
+  },
+  "quantities": {
+    "views": 20000,
+    "likes": 15,
+    "saves": 50,
+    "shares": 15
+  },
+  "messages": {
+    "request_link": "✅ Оплата получена!\n\nПришлите ссылку на TikTok-видео одним сообщением.",
+    "invalid_link": "❌ Пришлите корректную ссылку на TikTok-видео.",
+    "processing": "⏳ Ссылка получена. Создаю заказы…",
+    "success": "✅ Заказы успешно созданы!\n\n👁 Просмотры: 20 000\n❤️ Лайки: 2 200\n🔖 Сохранения: 1 200\n🔁 Репосты: 450",
+    "error": "❌ Не удалось создать все заказы. Администратор уведомлён."
+  },
+  "auto_complete_deal": true,
+  "keyphrases": [
+    "БУСТ"
+  ],
+  "service_enabled": {
+    "views": false,
+    "likes": false,
+    "saves": true,
+    "shares": true
+  },
+  "bound_items": []
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "id": "1f18f827-7ce5-6f50-cf26-2e4b53df49b3",
+        "slug": "2e4b53df49b3-bust-do-zolota-1-v-1v1-bystro-i-bez-softa",
+        "priority": "DEFAULT",
+        "status": "APPROVED",
+        "name": "💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀",
+        "price": 150,
+        "raw_price": 150,
+        "seller_type": "USER",
+        "attachment": {
+            "id": "1f18f827-79ec-63d0-fbdf-f33205485148",
+            "url": "https://i.playerok.com/YB7CX242usf8NzNn42x_LxnjQ_dU66tQoJCiK_30_Zc/wm:0.8:soea:5:2:0.2/rs:fill:0:300:1/g:no/quality:99/czM6Ly9wbGF5ZXJvay8vaW1hZ2VzLzFmMThmODI3LTc5ZWMtNjNkMC1mYmRmLWYzMzIwNTQ4NTE0OC5wbmc.jpg",
+            "filename": null,
+            "mime": null
+        },
+        "user": {
+            "id": "1f11cb40-fc92-6ed0-188a-b18a5df170ac",
+            "username": "baraban09",
+            "role": "USER",
+            "avatar_url": "https://playerok.fra1.digitaloceanspaces.com/images/1f11cb4c-a623-6200-5412-b3c3b7b5a635.jpg?timestamp=1773169824",
+            "is_online": true,
+            "is_blocked": false,
+            "rating": 5,
+            "reviews_count": 96,
+            "support_chat_id": "1f11cb49-0656-6092-961b-8c9210189b01",
+            "system_chat_id": "1f11cb49-0656-6090-a386-a7cbcdf107d0",
+            "created_at": "2026-03-10T19:05:10.973Z"
+        },
+        "approval_date": "2026-09-01T20:06:22.077Z",
+        "priority_position": 0,
+        "views_counter": 15,
+        "fee_multiplier": 0.2,
+        "created_at": "2026-08-03T21:29:54.376Z"
+    }
+]

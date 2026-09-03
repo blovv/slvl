@@ -1,0 +1,89 @@
+{
+    "playerok": {
+        "api": {
+            "cookies": "__ddg10_=1788377592;__ddg9_=85.117.243.5;_ym_visorc=b;__ddg1_=45c4LRJqOyBokYCNTq1L;_ym_isad=2;mdd=0;_tt_enable_cookie=1;__ddg8_=lU9tD9uDnO0vfL8g;_ttp=01M1F8SV0SNBDCRQ84NMS7BT6N_.tt.1;_ym_d=1788292655;_ym_uid=1788292655551854134;auid=51ce6175-91a7-4cce-814f-13a029566d01;domain_sid=-mHmvDnrM-Tqb9wDwH_fT%3A1788292689953;fakeauid=465ce6cc69c43b02a0e8f34f6d00d059;need_page_reload=false;tmr_detect=0%7C1788377576474;tmr_lvid=34241c7a6d055739734cfb843d3be352;tmr_lvidTS=1788292673329;token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxZjFhNjNmOC04M2ViLTZmMDAtMzQ0Mi0wZTU5MzBmOWY1OGMiLCJpZGVudGl0eSI6IjFmMWE2M2Y4LTg0N2ItNmZiMC0wYTcwLTkzNWQ3MzAxOTcxMyIsInJvbGUiOiJVU0VSIiwidiI6MSwicmV2IjoxLCJpYXQiOjE3ODgyOTI3MzEsImV4cCI6MTgxOTgyODczMX0.RCbcjgDZHuOxP3eI3UURSMeEyuCgoAfFsj5MlftjAsM;ttcsid=1788377576955::jox3_pHu8_bLdpZVLwNx.3.1788377590332.0::1.5937.0::11168.4.218.138::0.0.0;ttcsid_D3OFSBRC77UED4260FFG=1788377576954::Tovl_Cb1k630e1v3KT2V.3.1788377590332.1",
+            "user_agent": "",
+            "proxy": "",
+            "requests_timeout": 30
+        },
+        "watermark": {
+            "enabled": true,
+            "value": "©️ 𝗣𝗹𝗮𝘆𝗲𝗿𝗼𝗸 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹"
+        },
+        "read_chat": true,
+        "auto_restore_items": {
+            "sold": true,
+            "expired": false,
+            "all": true,
+            "free": true,
+            "premium": true,
+            "publish_status": "last",
+            "recreate": false
+        },
+        "auto_complete_deals": {
+            "enabled": false,
+            "all": true
+        },
+        "auto_bump_items": {
+            "enabled": false,
+            "mode": "interval",
+            "interval": 3600,
+            "position": 10,
+            "cooldown": 600,
+            "check_interval": 120,
+            "all": false,
+            "last_time": "",
+            "last_check_time": "",
+            "night": {
+                "enabled": false,
+                "interval": 14400,
+                "position": 25,
+                "time_from": "23:00",
+                "time_to": "08:00"
+            }
+        },
+        "auto_withdrawal": {
+            "enabled": false,
+            "interval": 86400,
+            "last_time": "",
+            "credentials_type": "",
+            "card_id": "",
+            "sbp_bank_id": "",
+            "sbp_phone_number": "",
+            "usdt_address": ""
+        },
+        "notifications": {
+            "enabled": true,
+            "chat_id": "",
+            "events": {
+                "new_user_message": true,
+                "new_system_message": true,
+                "new_deal": true,
+                "new_review": true,
+                "new_problem": true,
+                "deal_status_changed": true,
+                "item_restored": true,
+                "item_bumped": true,
+                "withdrawal_requested": true
+            }
+        }
+    },
+    "telegram": {
+        "api": {
+            "token": "",
+            "proxy": "",
+            "custom_api_url": ""
+        },
+        "bot": {
+            "password": "",
+            "signed_users": []
+        }
+    },
+    "updates": {
+        "auto_update": true,
+        "notify": true
+    },
+    "logs": {
+        "max_file_size": 512
+    }
+}

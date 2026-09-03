@@ -1,0 +1,869 @@
+[01.09.2026 22:31:30] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:31:30] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:31:31] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[01.09.2026 22:31:56] INFO · universal            
+[01.09.2026 22:32:01] INFO · universal            Playerok аккаунт успешно авторизован.
+[01.09.2026 22:32:02] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:32:06] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[01.09.2026 22:34:45] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:34:46] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:34:46] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[01.09.2026 22:34:46] INFO · universal            
+[01.09.2026 22:34:46] INFO · universal            Playerok аккаунт успешно авторизован.
+[01.09.2026 22:34:47] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:34:47] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[01.09.2026 22:34:47] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[01.09.2026 22:34:47] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7416
+[01.09.2026 22:34:47] INFO · universal            Telegram прокси успешно работает.
+[01.09.2026 22:34:47] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:34:48] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[01.09.2026 22:34:48] INFO · universal            Telegram бот успешно работает.
+[01.09.2026 22:34:48] ERROR · universal.modules    Ошибка при загрузке модуля tgbot: Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\core\modules.py", line 231, in load_modules
+    module.PREFIX,
+    ^^^^^^^^^^^^^
+AttributeError: module 'modules.tgbot' has no attribute 'PREFIX'
+
+[01.09.2026 22:34:48] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:34:48] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:34:48] INFO · universal.playerok   
+[01.09.2026 22:34:48] INFO · universal.playerok   Playerok бот запущен и активен
+[01.09.2026 22:34:48] INFO · universal.playerok   
+[01.09.2026 22:34:48] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:34:48] INFO · universal.playerok   Информация об аккаунте:
+[01.09.2026 22:34:48] INFO · universal.playerok    · ID: 1f01c24d-5a0f-6020-3210-af4cbe50081f
+[01.09.2026 22:34:48] INFO · universal.playerok    · Никнейм: blovv
+[01.09.2026 22:34:48] INFO · universal.playerok    · Баланс: 7848₽
+[01.09.2026 22:34:48] INFO · universal.playerok      · Доступно: 4527₽
+[01.09.2026 22:34:48] INFO · universal.playerok      · В ожидании: 3321₽
+[01.09.2026 22:34:48] INFO · universal.playerok      · Заморожено: 0₽
+[01.09.2026 22:34:48] INFO · universal.playerok    · Активные продажи: 0
+[01.09.2026 22:34:48] INFO · universal.playerok    · Активные покупки: 0
+[01.09.2026 22:34:48] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:34:48] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:34:48] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:34:49] INFO · universal.telegram   
+[01.09.2026 22:34:49] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[01.09.2026 22:34:49] INFO · universal.telegram   
+[01.09.2026 22:34:49] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:34:49] INFO · universal.telegram   Информация о прокси:
+[01.09.2026 22:34:49] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[01.09.2026 22:34:49] INFO · universal.telegram    · Юзер: gar*****
+[01.09.2026 22:34:49] INFO · universal.telegram    · Пароль: ihV*****
+[01.09.2026 22:34:49] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:34:49] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[01.09.2026 22:36:52] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:36:52] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:36:52] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[01.09.2026 22:36:52] INFO · universal            
+[01.09.2026 22:36:52] INFO · universal            Playerok аккаунт успешно авторизован.
+[01.09.2026 22:36:53] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:36:53] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[01.09.2026 22:36:53] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[01.09.2026 22:36:54] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7415
+[01.09.2026 22:36:54] INFO · universal            Telegram прокси успешно работает.
+[01.09.2026 22:36:54] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:36:54] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[01.09.2026 22:36:54] INFO · universal            Telegram бот успешно работает.
+[01.09.2026 22:36:54] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:36:54] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.2.0
+[01.09.2026 22:36:54] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:36:54] INFO · universal.playerok   
+[01.09.2026 22:36:54] INFO · universal.playerok   Playerok бот запущен и активен
+[01.09.2026 22:36:54] INFO · universal.playerok   
+[01.09.2026 22:36:54] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:36:54] INFO · universal.playerok   Информация об аккаунте:
+[01.09.2026 22:36:54] INFO · universal.playerok    · ID: 1f01c24d-5a0f-6020-3210-af4cbe50081f
+[01.09.2026 22:36:54] INFO · universal.playerok    · Никнейм: blovv
+[01.09.2026 22:36:54] INFO · universal.playerok    · Баланс: 7848₽
+[01.09.2026 22:36:54] INFO · universal.playerok      · Доступно: 4527₽
+[01.09.2026 22:36:54] INFO · universal.playerok      · В ожидании: 3321₽
+[01.09.2026 22:36:54] INFO · universal.playerok      · Заморожено: 0₽
+[01.09.2026 22:36:54] INFO · universal.playerok    · Активные продажи: 0
+[01.09.2026 22:36:54] INFO · universal.playerok    · Активные покупки: 0
+[01.09.2026 22:36:54] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:36:54] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:36:54] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:36:55] INFO · universal.telegram   
+[01.09.2026 22:36:55] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[01.09.2026 22:36:55] INFO · universal.telegram   
+[01.09.2026 22:36:55] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:36:55] INFO · universal.telegram   Информация о прокси:
+[01.09.2026 22:36:55] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[01.09.2026 22:36:55] INFO · universal.telegram    · Юзер: gar*****
+[01.09.2026 22:36:55] INFO · universal.telegram    · Пароль: ihV*****
+[01.09.2026 22:36:55] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:36:55] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[01.09.2026 22:39:54] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:39:55] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:42:55] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:42:55] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:45:55] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:45:55] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:47:56] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:47:56] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:47:56] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[01.09.2026 22:47:56] INFO · universal            
+[01.09.2026 22:47:57] INFO · universal            Playerok аккаунт успешно авторизован.
+[01.09.2026 22:47:57] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:47:58] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[01.09.2026 22:47:58] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[01.09.2026 22:47:58] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7416
+[01.09.2026 22:47:58] INFO · universal            Telegram прокси успешно работает.
+[01.09.2026 22:47:58] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:47:59] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[01.09.2026 22:47:59] INFO · universal            Telegram бот успешно работает.
+[01.09.2026 22:47:59] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:47:59] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.2.0
+[01.09.2026 22:47:59] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:47:59] INFO · universal.playerok   
+[01.09.2026 22:47:59] INFO · universal.playerok   Playerok бот запущен и активен
+[01.09.2026 22:47:59] INFO · universal.playerok   
+[01.09.2026 22:47:59] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:47:59] INFO · universal.playerok   Информация об аккаунте:
+[01.09.2026 22:47:59] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[01.09.2026 22:47:59] INFO · universal.playerok    · Никнейм: baraban09
+[01.09.2026 22:47:59] INFO · universal.playerok    · Баланс: 37.6₽
+[01.09.2026 22:47:59] INFO · universal.playerok      · Доступно: 37.6₽
+[01.09.2026 22:47:59] INFO · universal.playerok      · В ожидании: 0₽
+[01.09.2026 22:47:59] INFO · universal.playerok      · Заморожено: 0₽
+[01.09.2026 22:47:59] INFO · universal.playerok    · Активные продажи: 0
+[01.09.2026 22:47:59] INFO · universal.playerok    · Активные покупки: 0
+[01.09.2026 22:47:59] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:47:59] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:47:59] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:48:00] INFO · universal.telegram   
+[01.09.2026 22:48:00] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[01.09.2026 22:48:00] INFO · universal.telegram   
+[01.09.2026 22:48:00] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:48:00] INFO · universal.telegram   Информация о прокси:
+[01.09.2026 22:48:00] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[01.09.2026 22:48:00] INFO · universal.telegram    · Юзер: gar*****
+[01.09.2026 22:48:00] INFO · universal.telegram    · Пароль: ihV*****
+[01.09.2026 22:48:00] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:48:04] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[01.09.2026 22:49:21] DEBUG · playerokapi.listener WS -> {'id': '6bebf4f6-c38f-49bf-ae41-0d1f1c68d077', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[01.09.2026 22:49:21] DEBUG · playerokapi.listener WS -> {'id': '7336b4d3-44d0-47ba-9b5c-f5c6b201ca33', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a63e3-9978-6310-9f90-657eb386bd71', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-01T19:49:20.961Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': None, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[01.09.2026 22:49:28] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:49:28] INFO · universal.playerok   Новая сделка 1f1a63e3-9842-6220-7387-8c5e8d134791:
+[01.09.2026 22:49:28] INFO · universal.playerok    · Покупатель: blovv
+[01.09.2026 22:49:28] INFO · universal.playerok    · Товар: 💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀
+[01.09.2026 22:49:28] INFO · universal.playerok    · Сумма: 150₽
+[01.09.2026 22:49:28] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:49:28] DEBUG · playerokapi.listener WS -> {'id': '6bebf4f6-c38f-49bf-ae41-0d1f1c68d077', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[01.09.2026 22:49:32] INFO · universal.playerok   «💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстр...» — товар восстановлен (статус: бесплатный)
+[01.09.2026 22:50:59] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:51:00] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:51:03] DEBUG · playerokapi.listener WS -> {'id': '6bebf4f6-c38f-49bf-ae41-0d1f1c68d077', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[01.09.2026 22:51:03] DEBUG · playerokapi.listener WS -> {'id': '7336b4d3-44d0-47ba-9b5c-f5c6b201ca33', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a63e7-690c-6ba0-7a34-654e08ab0bf2', 'text': 'Ой вовзрат', 'createdAt': '2026-09-01T19:51:03.258Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 409, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[01.09.2026 22:51:03] DEBUG · playerokapi.listener WS -> {'id': 'f850e985-5874-461e-b139-1641327ea789', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a63e7-690c-6ba0-7a34-654e08ab0bf2', 'text': 'Ой вовзрат', 'createdAt': '2026-09-01T19:51:03.258Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 409, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[01.09.2026 22:51:03] INFO · universal.playerok   Новое сообщение в чате с blovv:
+[01.09.2026 22:51:03] INFO · universal.playerok   │ blovv:
+[01.09.2026 22:51:03] INFO · universal.playerok   │ Ой вовзрат
+[01.09.2026 22:51:03] INFO · universal.playerok   └──────────────────────────────
+[01.09.2026 22:51:06] DEBUG · playerokapi.listener WS -> {'id': '6bebf4f6-c38f-49bf-ae41-0d1f1c68d077', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[01.09.2026 22:51:06] DEBUG · playerokapi.listener WS -> {'id': '7336b4d3-44d0-47ba-9b5c-f5c6b201ca33', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a63e7-85ef-6bf0-b2be-8bce289dfb2d', 'text': 'не то купил', 'createdAt': '2026-09-01T19:51:06.287Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 409, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[01.09.2026 22:51:06] DEBUG · playerokapi.listener WS -> {'id': 'f850e985-5874-461e-b139-1641327ea789', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a63e7-85ef-6bf0-b2be-8bce289dfb2d', 'text': 'не то купил', 'createdAt': '2026-09-01T19:51:06.287Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 409, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[01.09.2026 22:51:06] INFO · universal.playerok   Новое сообщение в чате с blovv:
+[01.09.2026 22:51:06] INFO · universal.playerok   │ blovv:
+[01.09.2026 22:51:06] INFO · universal.playerok   │ не то купил
+[01.09.2026 22:51:06] INFO · universal.playerok   └──────────────────────────────
+[01.09.2026 22:51:12] DEBUG · playerokapi.listener WS -> {'id': '6bebf4f6-c38f-49bf-ae41-0d1f1c68d077', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[01.09.2026 22:52:43] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:52:44] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:52:44] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[01.09.2026 22:52:44] INFO · universal            
+[01.09.2026 22:52:44] INFO · universal            Playerok аккаунт успешно авторизован.
+[01.09.2026 22:52:45] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:52:45] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[01.09.2026 22:52:45] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[01.09.2026 22:52:45] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7416
+[01.09.2026 22:52:45] INFO · universal            Telegram прокси успешно работает.
+[01.09.2026 22:52:45] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:52:46] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[01.09.2026 22:52:46] INFO · universal            Telegram бот успешно работает.
+[01.09.2026 22:52:46] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:52:46] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.2.0
+[01.09.2026 22:52:46] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:52:46] INFO · universal.playerok   
+[01.09.2026 22:52:46] INFO · universal.playerok   Playerok бот запущен и активен
+[01.09.2026 22:52:46] INFO · universal.playerok   
+[01.09.2026 22:52:46] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:52:46] INFO · universal.playerok   Информация об аккаунте:
+[01.09.2026 22:52:46] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[01.09.2026 22:52:46] INFO · universal.playerok    · Никнейм: baraban09
+[01.09.2026 22:52:46] INFO · universal.playerok    · Баланс: 37.6₽
+[01.09.2026 22:52:46] INFO · universal.playerok      · Доступно: 37.6₽
+[01.09.2026 22:52:46] INFO · universal.playerok      · В ожидании: 0₽
+[01.09.2026 22:52:46] INFO · universal.playerok      · Заморожено: 0₽
+[01.09.2026 22:52:46] INFO · universal.playerok    · Активные продажи: 0
+[01.09.2026 22:52:46] INFO · universal.playerok    · Активные покупки: 0
+[01.09.2026 22:52:46] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:52:46] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:52:46] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:52:47] INFO · universal.telegram   
+[01.09.2026 22:52:47] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[01.09.2026 22:52:47] INFO · universal.telegram   
+[01.09.2026 22:52:47] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:52:47] INFO · universal.telegram   Информация о прокси:
+[01.09.2026 22:52:47] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[01.09.2026 22:52:47] INFO · universal.telegram    · Юзер: gar*****
+[01.09.2026 22:52:47] INFO · universal.telegram    · Пароль: ihV*****
+[01.09.2026 22:52:47] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:52:47] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[01.09.2026 22:53:34] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:53:34] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:53:34] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[01.09.2026 22:53:34] INFO · universal            
+[01.09.2026 22:53:34] INFO · universal            Playerok аккаунт успешно авторизован.
+[01.09.2026 22:53:35] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:53:35] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[01.09.2026 22:53:35] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[01.09.2026 22:53:36] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7416
+[01.09.2026 22:53:36] INFO · universal            Telegram прокси успешно работает.
+[01.09.2026 22:53:36] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 22:53:36] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[01.09.2026 22:53:36] INFO · universal            Telegram бот успешно работает.
+[01.09.2026 22:53:36] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:53:36] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.2.0
+[01.09.2026 22:53:36] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:53:37] INFO · universal.playerok   
+[01.09.2026 22:53:37] INFO · universal.playerok   Playerok бот запущен и активен
+[01.09.2026 22:53:37] INFO · universal.playerok   
+[01.09.2026 22:53:37] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:53:37] INFO · universal.playerok   Информация об аккаунте:
+[01.09.2026 22:53:37] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[01.09.2026 22:53:37] INFO · universal.playerok    · Никнейм: baraban09
+[01.09.2026 22:53:37] INFO · universal.playerok    · Баланс: 37.6₽
+[01.09.2026 22:53:37] INFO · universal.playerok      · Доступно: 37.6₽
+[01.09.2026 22:53:37] INFO · universal.playerok      · В ожидании: 0₽
+[01.09.2026 22:53:37] INFO · universal.playerok      · Заморожено: 0₽
+[01.09.2026 22:53:37] INFO · universal.playerok    · Активные продажи: 0
+[01.09.2026 22:53:37] INFO · universal.playerok    · Активные покупки: 0
+[01.09.2026 22:53:37] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:53:37] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:53:37] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 22:53:37] INFO · universal.telegram   
+[01.09.2026 22:53:37] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[01.09.2026 22:53:37] INFO · universal.telegram   
+[01.09.2026 22:53:37] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:53:37] INFO · universal.telegram   Информация о прокси:
+[01.09.2026 22:53:37] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[01.09.2026 22:53:37] INFO · universal.telegram    · Юзер: gar*****
+[01.09.2026 22:53:37] INFO · universal.telegram    · Пароль: ihV*****
+[01.09.2026 22:53:37] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 22:53:38] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[01.09.2026 22:56:35] DEBUG · playerokapi.listener WS -> {'id': 'c987d94c-0dba-428d-94f0-d304066a447c', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[01.09.2026 22:56:35] DEBUG · playerokapi.listener WS -> {'id': '3e817f8a-867f-451a-bf7e-365646c040c2', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a63f3-bf1d-6150-d98e-04aa69ea5404', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-01T19:56:34.405Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': None, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[01.09.2026 22:56:35] DEBUG · playerokapi.listener WS -> {'id': '9c99b698-6222-46e0-8228-7364c7852d09', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a63f3-bf1d-6150-d98e-04aa69ea5404', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-01T19:56:34.405Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': None, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[01.09.2026 22:56:37] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:56:37] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 22:56:42] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:56:42] INFO · universal.playerok   Новая сделка 1f1a63f3-be94-65d0-2c76-79217e709aff:
+[01.09.2026 22:56:42] INFO · universal.playerok    · Покупатель: blovv
+[01.09.2026 22:56:42] INFO · universal.playerok    · Товар: 💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀
+[01.09.2026 22:56:42] INFO · universal.playerok    · Сумма: 150₽
+[01.09.2026 22:56:42] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 22:56:44] INFO · universal.playerok   «💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстр...» — товар восстановлен (статус: бесплатный)
+[01.09.2026 22:58:20] DEBUG · playerokapi.listener WS -> {'id': 'c987d94c-0dba-428d-94f0-d304066a447c', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[01.09.2026 22:58:20] DEBUG · playerokapi.listener WS -> {'id': '3e817f8a-867f-451a-bf7e-365646c040c2', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a63f7-afed-6eb0-0bd0-3528fd818699', 'text': 'ой бля сорян снова у тя купил перепутал', 'createdAt': '2026-09-01T19:58:20.187Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': False, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 409, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[01.09.2026 22:58:20] DEBUG · playerokapi.listener WS -> {'id': '9c99b698-6222-46e0-8228-7364c7852d09', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 1, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a63f7-afed-6eb0-0bd0-3528fd818699', 'text': 'ой бля сорян снова у тя купил перепутал', 'createdAt': '2026-09-01T19:58:20.187Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': False, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 409, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[01.09.2026 22:58:20] INFO · universal.playerok   Новое сообщение в чате с blovv:
+[01.09.2026 22:58:20] INFO · universal.playerok   │ blovv:
+[01.09.2026 22:58:20] INFO · universal.playerok   │ ой бля сорян снова у тя купил перепутал
+[01.09.2026 22:58:20] INFO · universal.playerok   └─────────────────────────────────────────
+[01.09.2026 22:58:29] DEBUG · playerokapi.listener WS -> {'id': 'c987d94c-0dba-428d-94f0-d304066a447c', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[01.09.2026 22:59:37] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 22:59:37] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 23:01:09] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 23:01:10] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 23:01:10] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[01.09.2026 23:01:10] INFO · universal            
+[01.09.2026 23:01:10] INFO · universal            Playerok аккаунт успешно авторизован.
+[01.09.2026 23:01:10] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 23:01:11] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[01.09.2026 23:01:11] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[01.09.2026 23:01:11] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7416
+[01.09.2026 23:01:11] INFO · universal            Telegram прокси успешно работает.
+[01.09.2026 23:01:11] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 23:01:12] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[01.09.2026 23:01:12] INFO · universal            Telegram бот успешно работает.
+[01.09.2026 23:01:12] ERROR · universal.modules    Ошибка при загрузке модуля tiktok_smm: Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\core\modules.py", line 218, in load_modules
+    module = importlib.import_module(f"{MODULES_DIR}.{name}")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\__init__.py", line 16, in <module>
+    from .tgbot import router as telegram_router
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\tgbot\__init__.py", line 3, in <module>
+    from .handlers import commands  # noqa: F401,E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\tgbot\handlers\commands.py", line 137
+    if v.get("link"): lines.append(f"  🔗 {v.get("link")}")
+                                                    ^^^^
+SyntaxError: f-string: unmatched '('
+
+[01.09.2026 23:01:12] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:01:12] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:01:12] INFO · universal.playerok   
+[01.09.2026 23:01:12] INFO · universal.playerok   Playerok бот запущен и активен
+[01.09.2026 23:01:12] INFO · universal.playerok   
+[01.09.2026 23:01:12] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 23:01:12] INFO · universal.playerok   Информация об аккаунте:
+[01.09.2026 23:01:12] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[01.09.2026 23:01:12] INFO · universal.playerok    · Никнейм: baraban09
+[01.09.2026 23:01:12] INFO · universal.playerok    · Баланс: 37.6₽
+[01.09.2026 23:01:12] INFO · universal.playerok      · Доступно: 37.6₽
+[01.09.2026 23:01:12] INFO · universal.playerok      · В ожидании: 0₽
+[01.09.2026 23:01:12] INFO · universal.playerok      · Заморожено: 0₽
+[01.09.2026 23:01:12] INFO · universal.playerok    · Активные продажи: 0
+[01.09.2026 23:01:12] INFO · universal.playerok    · Активные покупки: 0
+[01.09.2026 23:01:12] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 23:01:12] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:01:12] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:01:12] INFO · universal.telegram   
+[01.09.2026 23:01:12] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[01.09.2026 23:01:12] INFO · universal.telegram   
+[01.09.2026 23:01:12] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 23:01:12] INFO · universal.telegram   Информация о прокси:
+[01.09.2026 23:01:12] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[01.09.2026 23:01:12] INFO · universal.telegram    · Юзер: gar*****
+[01.09.2026 23:01:12] INFO · universal.telegram    · Пароль: ihV*****
+[01.09.2026 23:01:12] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 23:01:13] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[01.09.2026 23:02:49] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 23:02:49] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 23:02:49] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[01.09.2026 23:02:49] INFO · universal            
+[01.09.2026 23:02:50] INFO · universal            Playerok аккаунт успешно авторизован.
+[01.09.2026 23:02:50] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 23:02:51] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[01.09.2026 23:02:51] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[01.09.2026 23:02:51] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7416
+[01.09.2026 23:02:51] INFO · universal            Telegram прокси успешно работает.
+[01.09.2026 23:02:51] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 23:02:51] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[01.09.2026 23:02:51] INFO · universal            Telegram бот успешно работает.
+[01.09.2026 23:02:51] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:02:51] INFO · tiktok_smm           [tiktok_smm] module enabled; Playerok NEW_DEAL/ITEM_PAID handlers registered
+[01.09.2026 23:02:51] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.4.0
+[01.09.2026 23:02:52] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:02:52] INFO · universal.playerok   
+[01.09.2026 23:02:52] INFO · universal.playerok   Playerok бот запущен и активен
+[01.09.2026 23:02:52] INFO · universal.playerok   
+[01.09.2026 23:02:52] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 23:02:52] INFO · universal.playerok   Информация об аккаунте:
+[01.09.2026 23:02:52] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[01.09.2026 23:02:52] INFO · universal.playerok    · Никнейм: baraban09
+[01.09.2026 23:02:52] INFO · universal.playerok    · Баланс: 37.6₽
+[01.09.2026 23:02:52] INFO · universal.playerok      · Доступно: 37.6₽
+[01.09.2026 23:02:52] INFO · universal.playerok      · В ожидании: 0₽
+[01.09.2026 23:02:52] INFO · universal.playerok      · Заморожено: 0₽
+[01.09.2026 23:02:52] INFO · universal.playerok    · Активные продажи: 0
+[01.09.2026 23:02:52] INFO · universal.playerok    · Активные покупки: 0
+[01.09.2026 23:02:52] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 23:02:52] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:02:52] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:02:52] INFO · universal.telegram   
+[01.09.2026 23:02:52] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[01.09.2026 23:02:52] INFO · universal.telegram   
+[01.09.2026 23:02:52] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 23:02:52] INFO · universal.telegram   Информация о прокси:
+[01.09.2026 23:02:52] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[01.09.2026 23:02:52] INFO · universal.telegram    · Юзер: gar*****
+[01.09.2026 23:02:52] INFO · universal.telegram    · Пароль: ihV*****
+[01.09.2026 23:02:52] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 23:02:53] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[01.09.2026 23:04:12] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 23:04:12] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 23:05:07] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[01.09.2026 23:05:07] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[01.09.2026 23:05:07] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[01.09.2026 23:05:07] INFO · universal            
+[01.09.2026 23:05:08] INFO · universal            Playerok аккаунт успешно авторизован.
+[01.09.2026 23:05:08] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 23:05:09] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[01.09.2026 23:05:09] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[01.09.2026 23:05:09] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7416
+[01.09.2026 23:05:09] INFO · universal            Telegram прокси успешно работает.
+[01.09.2026 23:05:09] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[01.09.2026 23:05:09] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[01.09.2026 23:05:09] INFO · universal            Telegram бот успешно работает.
+[01.09.2026 23:05:09] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:05:09] INFO · tiktok_smm           [tiktok_smm] module enabled; Playerok NEW_DEAL/ITEM_PAID handlers registered
+[01.09.2026 23:05:09] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.4.0
+[01.09.2026 23:05:10] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:05:10] INFO · universal.playerok   
+[01.09.2026 23:05:10] INFO · universal.playerok   Playerok бот запущен и активен
+[01.09.2026 23:05:10] INFO · universal.playerok   
+[01.09.2026 23:05:10] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 23:05:10] INFO · universal.playerok   Информация об аккаунте:
+[01.09.2026 23:05:10] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[01.09.2026 23:05:10] INFO · universal.playerok    · Никнейм: baraban09
+[01.09.2026 23:05:10] INFO · universal.playerok    · Баланс: 37.6₽
+[01.09.2026 23:05:10] INFO · universal.playerok      · Доступно: 37.6₽
+[01.09.2026 23:05:10] INFO · universal.playerok      · В ожидании: 0₽
+[01.09.2026 23:05:10] INFO · universal.playerok      · Заморожено: 0₽
+[01.09.2026 23:05:10] INFO · universal.playerok    · Активные продажи: 0
+[01.09.2026 23:05:10] INFO · universal.playerok    · Активные покупки: 0
+[01.09.2026 23:05:10] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 23:05:10] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:05:10] DEBUG · asyncio              Using proactor: IocpProactor
+[01.09.2026 23:05:10] INFO · universal.telegram   
+[01.09.2026 23:05:10] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[01.09.2026 23:05:10] INFO · universal.telegram   
+[01.09.2026 23:05:10] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 23:05:10] INFO · universal.telegram   Информация о прокси:
+[01.09.2026 23:05:10] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[01.09.2026 23:05:10] INFO · universal.telegram    · Юзер: gar*****
+[01.09.2026 23:05:10] INFO · universal.telegram    · Пароль: ihV*****
+[01.09.2026 23:05:10] INFO · universal.telegram   ───────────────────────────────────────
+[01.09.2026 23:05:11] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[01.09.2026 23:06:12] DEBUG · playerokapi.listener WS -> {'id': '16e6166a-5176-44e6-a726-f748d89399df', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[01.09.2026 23:06:12] DEBUG · playerokapi.listener WS -> {'id': '6ad287c4-9ea6-4cdf-bc64-eb5e22cada99', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a6409-3d65-6110-3457-0e3c96cd6255', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-01T20:06:11.361Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': None, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[01.09.2026 23:06:12] DEBUG · playerokapi.listener WS -> {'id': 'd20655d7-4e65-4d8a-9827-fb741937a309', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a6409-3d65-6110-3457-0e3c96cd6255', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-01T20:06:11.361Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': None, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[01.09.2026 23:06:19] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 23:06:19] INFO · universal.playerok   Новая сделка 1f1a6409-3c9f-6500-0258-b432fb52701e:
+[01.09.2026 23:06:19] INFO · universal.playerok    · Покупатель: blovv
+[01.09.2026 23:06:19] INFO · universal.playerok    · Товар: 💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀
+[01.09.2026 23:06:19] INFO · universal.playerok    · Сумма: 150₽
+[01.09.2026 23:06:19] INFO · universal.playerok   ───────────────────────────────────────
+[01.09.2026 23:06:22] INFO · universal.playerok   «💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстр...» — товар восстановлен (статус: бесплатный)
+[01.09.2026 23:06:47] DEBUG · playerokapi.listener WS -> {'id': '16e6166a-5176-44e6-a726-f748d89399df', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[01.09.2026 23:06:47] DEBUG · playerokapi.listener WS -> {'id': 'd20655d7-4e65-4d8a-9827-fb741937a309', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 1, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a640a-9110-6a20-57b5-5acb26dafe73', 'text': 'ой бля снова у тя', 'createdAt': '2026-09-01T20:06:46.978Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 409, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[01.09.2026 23:06:47] DEBUG · playerokapi.listener WS -> {'id': '6ad287c4-9ea6-4cdf-bc64-eb5e22cada99', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a640a-9110-6a20-57b5-5acb26dafe73', 'text': 'ой бля снова у тя', 'createdAt': '2026-09-01T20:06:46.978Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 409, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[01.09.2026 23:06:47] INFO · universal.playerok   Новое сообщение в чате с blovv:
+[01.09.2026 23:06:47] INFO · universal.playerok   │ blovv:
+[01.09.2026 23:06:47] INFO · universal.playerok   │ ой бля снова у тя
+[01.09.2026 23:06:47] INFO · universal.playerok   └──────────────────────────────
+[02.09.2026 20:55:55] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 20:55:55] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 20:55:55] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[02.09.2026 20:55:55] INFO · universal            
+[02.09.2026 20:55:56] INFO · universal            Playerok аккаунт успешно авторизован.
+[02.09.2026 20:55:57] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[02.09.2026 20:55:57] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[02.09.2026 20:55:57] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[02.09.2026 20:55:57] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7416
+[02.09.2026 20:55:57] INFO · universal            Telegram прокси успешно работает.
+[02.09.2026 20:55:57] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[02.09.2026 20:55:58] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[02.09.2026 20:55:58] INFO · universal            Telegram бот успешно работает.
+[02.09.2026 20:55:58] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 20:55:58] INFO · tiktok_smm           [tiktok_smm] module enabled; Playerok NEW_DEAL/ITEM_PAID handlers registered
+[02.09.2026 20:55:58] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.4.0
+[02.09.2026 20:55:58] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 20:55:58] INFO · universal.playerok   
+[02.09.2026 20:55:58] INFO · universal.playerok   Playerok бот запущен и активен
+[02.09.2026 20:55:58] INFO · universal.playerok   
+[02.09.2026 20:55:58] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 20:55:58] INFO · universal.playerok   Информация об аккаунте:
+[02.09.2026 20:55:58] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[02.09.2026 20:55:58] INFO · universal.playerok    · Никнейм: baraban09
+[02.09.2026 20:55:58] INFO · universal.playerok    · Баланс: 37.6₽
+[02.09.2026 20:55:58] INFO · universal.playerok      · Доступно: 37.6₽
+[02.09.2026 20:55:58] INFO · universal.playerok      · В ожидании: 0₽
+[02.09.2026 20:55:58] INFO · universal.playerok      · Заморожено: 0₽
+[02.09.2026 20:55:58] INFO · universal.playerok    · Активные продажи: 0
+[02.09.2026 20:55:58] INFO · universal.playerok    · Активные покупки: 0
+[02.09.2026 20:55:58] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 20:55:58] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 20:55:58] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 20:55:59] INFO · universal.telegram   
+[02.09.2026 20:55:59] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[02.09.2026 20:55:59] INFO · universal.telegram   
+[02.09.2026 20:55:59] INFO · universal.telegram   ───────────────────────────────────────
+[02.09.2026 20:55:59] INFO · universal.telegram   Информация о прокси:
+[02.09.2026 20:55:59] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[02.09.2026 20:55:59] INFO · universal.telegram    · Юзер: gar*****
+[02.09.2026 20:55:59] INFO · universal.telegram    · Пароль: ihV*****
+[02.09.2026 20:55:59] INFO · universal.telegram   ───────────────────────────────────────
+[02.09.2026 20:56:00] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[02.09.2026 21:09:16] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 21:09:17] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 21:09:17] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[02.09.2026 21:09:17] INFO · universal            
+[02.09.2026 21:09:18] INFO · universal            Playerok аккаунт успешно авторизован.
+[02.09.2026 21:09:18] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[02.09.2026 21:09:18] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET / HTTP/1.1" 302 145
+[02.09.2026 21:09:18] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): core.telegram.org:443
+[02.09.2026 21:09:19] DEBUG · urllib3.connectionpool https://core.telegram.org:443 "GET /bots HTTP/1.1" 200 7416
+[02.09.2026 21:09:19] INFO · universal            Telegram прокси успешно работает.
+[02.09.2026 21:09:19] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[02.09.2026 21:09:19] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[02.09.2026 21:09:19] INFO · universal            Telegram бот успешно работает.
+[02.09.2026 21:09:19] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:09:19] WARNING · tiktok_smm           [tiktok_smm] READY: Playerok event handlers registered
+[02.09.2026 21:09:19] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.5.0
+[02.09.2026 21:09:19] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:09:20] INFO · universal.playerok   
+[02.09.2026 21:09:20] INFO · universal.playerok   Playerok бот запущен и активен
+[02.09.2026 21:09:20] INFO · universal.playerok   
+[02.09.2026 21:09:20] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:09:20] INFO · universal.playerok   Информация об аккаунте:
+[02.09.2026 21:09:20] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[02.09.2026 21:09:20] INFO · universal.playerok    · Никнейм: baraban09
+[02.09.2026 21:09:20] INFO · universal.playerok    · Баланс: 37.6₽
+[02.09.2026 21:09:20] INFO · universal.playerok      · Доступно: 37.6₽
+[02.09.2026 21:09:20] INFO · universal.playerok      · В ожидании: 0₽
+[02.09.2026 21:09:20] INFO · universal.playerok      · Заморожено: 0₽
+[02.09.2026 21:09:20] INFO · universal.playerok    · Активные продажи: 0
+[02.09.2026 21:09:20] INFO · universal.playerok    · Активные покупки: 0
+[02.09.2026 21:09:20] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:09:20] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:09:20] WARNING · tiktok_smm           [tiktok_smm] READY: PlayerokBot initialized; listening for NEW_DEAL
+[02.09.2026 21:09:20] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:09:20] INFO · universal.telegram   
+[02.09.2026 21:09:20] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[02.09.2026 21:09:20] INFO · universal.telegram   
+[02.09.2026 21:09:20] INFO · universal.telegram   ───────────────────────────────────────
+[02.09.2026 21:09:20] INFO · universal.telegram   Информация о прокси:
+[02.09.2026 21:09:20] INFO · universal.telegram    · IP: 45.140.***.***:501**
+[02.09.2026 21:09:20] INFO · universal.telegram    · Юзер: gar*****
+[02.09.2026 21:09:20] INFO · universal.telegram    · Пароль: ihV*****
+[02.09.2026 21:09:20] INFO · universal.telegram   ───────────────────────────────────────
+[02.09.2026 21:09:21] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[02.09.2026 21:11:30] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 21:11:30] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 21:11:30] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[02.09.2026 21:11:30] INFO · universal            
+[02.09.2026 21:11:31] INFO · universal            Playerok аккаунт успешно авторизован.
+[02.09.2026 21:11:31] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[02.09.2026 21:12:04] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 21:12:05] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 21:12:05] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[02.09.2026 21:12:05] INFO · universal            
+[02.09.2026 21:12:05] INFO · universal            Playerok аккаунт успешно авторизован.
+[02.09.2026 21:12:06] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[02.09.2026 21:13:20] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 21:13:21] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 21:13:21] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[02.09.2026 21:13:47] INFO · universal            
+[02.09.2026 21:13:48] INFO · universal            Playerok аккаунт успешно авторизован.
+[02.09.2026 21:13:48] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[02.09.2026 21:13:49] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[02.09.2026 21:13:49] INFO · universal            Telegram бот успешно работает.
+[02.09.2026 21:13:49] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:13:49] WARNING · tiktok_smm           [tiktok_smm] READY: Playerok event handlers registered
+[02.09.2026 21:13:49] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.5.0
+[02.09.2026 21:13:49] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:13:49] INFO · universal.playerok   
+[02.09.2026 21:13:49] INFO · universal.playerok   Playerok бот запущен и активен
+[02.09.2026 21:13:49] INFO · universal.playerok   
+[02.09.2026 21:13:49] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:13:49] INFO · universal.playerok   Информация об аккаунте:
+[02.09.2026 21:13:49] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[02.09.2026 21:13:49] INFO · universal.playerok    · Никнейм: baraban09
+[02.09.2026 21:13:49] INFO · universal.playerok    · Баланс: 37.6₽
+[02.09.2026 21:13:49] INFO · universal.playerok      · Доступно: 37.6₽
+[02.09.2026 21:13:49] INFO · universal.playerok      · В ожидании: 0₽
+[02.09.2026 21:13:49] INFO · universal.playerok      · Заморожено: 0₽
+[02.09.2026 21:13:49] INFO · universal.playerok    · Активные продажи: 0
+[02.09.2026 21:13:49] INFO · universal.playerok    · Активные покупки: 0
+[02.09.2026 21:13:49] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:13:49] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:13:49] WARNING · tiktok_smm           [tiktok_smm] READY: PlayerokBot initialized; listening for NEW_DEAL
+[02.09.2026 21:13:49] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:13:49] INFO · universal.telegram   
+[02.09.2026 21:13:49] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[02.09.2026 21:13:50] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[02.09.2026 21:16:24] DEBUG · playerokapi.listener WS -> {'id': '444afc99-7b1c-4075-9c4c-e7de383619fa', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 21:16:24] DEBUG · playerokapi.listener WS -> {'id': 'aeedee3d-7196-4096-b886-ef915a4d9203', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a6fa6-77b1-6370-8a3c-c06d4f364016', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T18:16:23.335Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': None, 'eventByUser': None, 'eventToUser': None, 'deal': {'id': '1f1a6fa6-76b3-64f0-c2ed-9b4845258cf4', 'direction': 'OUT', 'status': 'PAID', 'statusDescription': None, 'hasProblem': False, 'props': {'autoConfirmPeriod': 7, 'confirmationRestriction': False, 'confirmationRestrictionTexts': None, '__typename': 'ItemDealProps'}, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'testimonial': None, 'item': {'id': '1f18f827-7ce5-6f50-cf26-2e4b53df49b3', 'name': '💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀', 'price': 100, 'slug': '2e4b53df49b3-bust-do-zolota-1-v-1v1-bystro-i-bez-softa', 'rawPrice': 150, 'sellerType': 'USER', 'user': {'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'username': 'baraban09', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f11cb4c-a623-6200-5412-b3c3b7b5a635.jpg?timestamp=1773169824', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 96, 'createdAt': '2026-03-10T19:05:10.973Z', 'supportChatId': '1f11cb49-0656-6092-961b-8c9210189b01', 'systemChatId': '1f11cb49-0656-6090-a386-a7cbcdf107d0', '__typename': 'UserFragment'}, 'category': {'id': '1ecc48ce-52e3-6900-c0e0-1c8df7e5ea9f', '__typename': 'GameCategory'}, 'attachments': [{'id': '1f18f827-79ec-63d0-fbdf-f33205485148', 'url': 'https://i.playerok.com/2NEGNprJSJQBxp7RhzTOJcMdEQrR9n8bwZOqc9llb48/wm:0.8:soea:5:2:0.2/rs:fill:0:1000:0/g:no/quality:99/czM6Ly9wbGF5ZXJvay8vaW1hZ2VzLzFmMThmODI3LTc5ZWMtNjNkMC1mYmRmLWYzMzIwNTQ4NTE0OC5wbmc.jpg', '__typename': 'File'}], 'isAttachmentsForbidden': False, 'comment': None, 'dataFields': [{'id': '1eeb7ab3-6420-6110-647d-a6046cb7aa6d', 'label': 'Комментарий', 'type': 'ITEM_DATA', 'inputType': 'TEXTAREA', 'copyable': False, 'hidden': False, 'required': False, 'value': 'напишите ваш никнейм от аккаунта в роблокс и пароль', '__typename': 'GameCategoryDataFieldWithValue'}], 'obtainingType': {'id': '1eeb7ab3-0a40-6410-7094-54815dbaf006', 'name': 'Вход в аккаунт', 'stockType': 'MULTIPLE', 'description': 'Буст со входом в аккаунт', 'gameCategoryId': '1ecc48ce-52e3-6900-c0e0-1c8df7e5ea9f', 'noCommentFromBuyer': False, 'instructionForBuyer': '❗️ Для безопасности сделки:\n⛔️ Не предоставляйте одноразовые коды с почты.\n⛔️ Не ведите переписку за пределами Playerok.\n⛔️ Не отправляйте денежные средства на прямые реквизиты продавца.\n⛔️ Не разглашайте данные, связанные с вашим профилем Playerok (пароль от почты профиля или код для входа в профиль).\n⛔️ Не переходите по подозрительным ссылкам.\n\n🔰 Служба поддержки Playerok готова помочь вам 24/7 в случае возникновения проблем.\n\nЖелаем удачных сделок! 💙', 'instructionForSeller': '❗️ Запрещено:\n⛔️ Совершать несогласованные с покупателем действия на игровом аккаунте.\n⛔️ Нажимать «Я выполнил» до того, как покупатель получит товар.\n⛔️ Вести переписку за пределами Playerok.\n⛔️ Запрашивать оплату на прямые реквизиты.\n\n🔰 В случае нарушения правил площадки ваш профиль будет заблокирован. Служба поддержки Playerok готова ответить на ваши вопросы 24/7.\n\nЖелаем удачных сделок! 💙', 'sequence': 1, 'feeMultiplier': 0.2, 'agreements': [{'description': 'Запрещено совершать несогласованные действия на аккаунте покупателя', 'iconType': 'RESTRICTION', 'id': '1f00be79-8cd0-67d3-9f08-bf01aaa01c58', 'sequence': 4, '__typename': 'GameCategoryAgreement'}, {'description': 'Запрещено подвергать риску блокировки аккаунт покупателя (читы, поведение в чате игры и пр.)', 'iconType': 'RESTRICTION', 'id': '1f00be79-8cd0-67d2-b508-ba2d176f74aa', 'sequence': 3, '__typename': 'GameCategoryAgreement'}, {'description': 'Отправить покупателю скриншот, доказывающий выход с аккаунта', 'iconType': 'CONFIRMATION', 'id': '1f00be79-8cd0-67d1-ae92-04eb482fed75', 'sequence': 2, '__typename': 'GameCategoryAgreement'}, {'description': 'Выйти с аккаунта покупателя после завершения сделки', 'iconType': 'CONFIRMATION', 'id': '1f00be79-8cd0-67d0-eda8-e201c7177513', 'sequence': 1, '__typename': 'GameCategoryAgreement'}], 'props': {'minTestimonialsForSeller': 0, '__typename': 'GameCategoryObtainingTypePropsObjectType'}, '__typename': 'GameCategoryObtainingType'}, '__typename': 'MyItem'}, 'obtainingFields': None, 'automationObtainingFields': None, 'chat': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'type': 'PM', '__typename': 'Chat'}, 'transaction': {'id': '1f1a6fa6-76ed-6e70-6340-85f6379edb0d', 'statusExpirationDate': None, '__typename': 'Transaction'}, 'statusExpirationDate': None, 'commentFromBuyer': None, 'gameCategoryWarnings': [{'id': '1f155091-65a7-6690-51e7-cc96a91c2874', 'status': 'PAID', 'title': 'Безопасность сделки', 'text': 'Общение и оплата вне Playerok небезопасны. Не сообщайте никому код для авторизации на сайте.\n\nВ случае проблемы сообщите нам — поддержка доступна только на сайте.', '__typename': 'ItemDealWarning'}], 'obtainingTypeWarnings': None, '__typename': 'ItemDeal'}, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 21:16:25] DEBUG · playerokapi.listener WS -> {'id': 'bad92193-add5-4743-8686-c215f72569d1', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a6fa6-77b1-6370-8a3c-c06d4f364016', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T18:16:23.335Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': None, 'deal': {'id': '1f1a6fa6-76b3-64f0-c2ed-9b4845258cf4', 'direction': 'OUT', 'status': 'PAID', 'statusDescription': None, 'hasProblem': False, 'props': {'autoConfirmPeriod': 7, 'confirmationRestriction': False, 'confirmationRestrictionTexts': None, '__typename': 'ItemDealProps'}, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'testimonial': None, 'item': {'id': '1f18f827-7ce5-6f50-cf26-2e4b53df49b3', 'name': '💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀', 'price': 100, 'slug': '2e4b53df49b3-bust-do-zolota-1-v-1v1-bystro-i-bez-softa', 'rawPrice': 150, 'sellerType': 'USER', 'user': {'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'username': 'baraban09', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f11cb4c-a623-6200-5412-b3c3b7b5a635.jpg?timestamp=1773169824', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 96, 'createdAt': '2026-03-10T19:05:10.973Z', 'supportChatId': '1f11cb49-0656-6092-961b-8c9210189b01', 'systemChatId': '1f11cb49-0656-6090-a386-a7cbcdf107d0', '__typename': 'UserFragment'}, 'category': {'id': '1ecc48ce-52e3-6900-c0e0-1c8df7e5ea9f', '__typename': 'GameCategory'}, 'attachments': [{'id': '1f18f827-79ec-63d0-fbdf-f33205485148', 'url': 'https://i.playerok.com/2NEGNprJSJQBxp7RhzTOJcMdEQrR9n8bwZOqc9llb48/wm:0.8:soea:5:2:0.2/rs:fill:0:1000:0/g:no/quality:99/czM6Ly9wbGF5ZXJvay8vaW1hZ2VzLzFmMThmODI3LTc5ZWMtNjNkMC1mYmRmLWYzMzIwNTQ4NTE0OC5wbmc.jpg', '__typename': 'File'}], 'isAttachmentsForbidden': False, 'comment': None, 'dataFields': [{'id': '1eeb7ab3-6420-6110-647d-a6046cb7aa6d', 'label': 'Комментарий', 'type': 'ITEM_DATA', 'inputType': 'TEXTAREA', 'copyable': False, 'hidden': False, 'required': False, 'value': 'напишите ваш никнейм от аккаунта в роблокс и пароль', '__typename': 'GameCategoryDataFieldWithValue'}], 'obtainingType': {'id': '1eeb7ab3-0a40-6410-7094-54815dbaf006', 'name': 'Вход в аккаунт', 'stockType': 'MULTIPLE', 'description': 'Буст со входом в аккаунт', 'gameCategoryId': '1ecc48ce-52e3-6900-c0e0-1c8df7e5ea9f', 'noCommentFromBuyer': False, 'instructionForBuyer': '❗️ Для безопасности сделки:\n⛔️ Не предоставляйте одноразовые коды с почты.\n⛔️ Не ведите переписку за пределами Playerok.\n⛔️ Не отправляйте денежные средства на прямые реквизиты продавца.\n⛔️ Не разглашайте данные, связанные с вашим профилем Playerok (пароль от почты профиля или код для входа в профиль).\n⛔️ Не переходите по подозрительным ссылкам.\n\n🔰 Служба поддержки Playerok готова помочь вам 24/7 в случае возникновения проблем.\n\nЖелаем удачных сделок! 💙', 'instructionForSeller': '❗️ Запрещено:\n⛔️ Совершать несогласованные с покупателем действия на игровом аккаунте.\n⛔️ Нажимать «Я выполнил» до того, как покупатель получит товар.\n⛔️ Вести переписку за пределами Playerok.\n⛔️ Запрашивать оплату на прямые реквизиты.\n\n🔰 В случае нарушения правил площадки ваш профиль будет заблокирован. Служба поддержки Playerok готова ответить на ваши вопросы 24/7.\n\nЖелаем удачных сделок! 💙', 'sequence': 1, 'feeMultiplier': 0.2, 'agreements': [{'description': 'Запрещено совершать несогласованные действия на аккаунте покупателя', 'iconType': 'RESTRICTION', 'id': '1f00be79-8cd0-67d3-9f08-bf01aaa01c58', 'sequence': 4, '__typename': 'GameCategoryAgreement'}, {'description': 'Запрещено подвергать риску блокировки аккаунт покупателя (читы, поведение в чате игры и пр.)', 'iconType': 'RESTRICTION', 'id': '1f00be79-8cd0-67d2-b508-ba2d176f74aa', 'sequence': 3, '__typename': 'GameCategoryAgreement'}, {'description': 'Отправить покупателю скриншот, доказывающий выход с аккаунта', 'iconType': 'CONFIRMATION', 'id': '1f00be79-8cd0-67d1-ae92-04eb482fed75', 'sequence': 2, '__typename': 'GameCategoryAgreement'}, {'description': 'Выйти с аккаунта покупателя после завершения сделки', 'iconType': 'CONFIRMATION', 'id': '1f00be79-8cd0-67d0-eda8-e201c7177513', 'sequence': 1, '__typename': 'GameCategoryAgreement'}], 'props': {'minTestimonialsForSeller': 0, '__typename': 'GameCategoryObtainingTypePropsObjectType'}, '__typename': 'GameCategoryObtainingType'}, '__typename': 'MyItem'}, 'obtainingFields': None, 'automationObtainingFields': None, 'chat': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'type': 'PM', '__typename': 'Chat'}, 'transaction': {'id': '1f1a6fa6-76ed-6e70-6340-85f6379edb0d', 'statusExpirationDate': None, '__typename': 'Transaction'}, 'statusExpirationDate': None, 'commentFromBuyer': None, 'gameCategoryWarnings': [{'id': '1f155091-65a7-6690-51e7-cc96a91c2874', 'status': 'PAID', 'title': 'Безопасность сделки', 'text': 'Общение и оплата вне Playerok небезопасны. Не сообщайте никому код для авторизации на сайте.\n\nВ случае проблемы сообщите нам — поддержка доступна только на сайте.', '__typename': 'ItemDealWarning'}], 'obtainingTypeWarnings': None, '__typename': 'ItemDeal'}, 'item': {'id': '1f18f827-7ce5-6f50-cf26-2e4b53df49b3', 'slug': '2e4b53df49b3-bust-do-zolota-1-v-1v1-bystro-i-bez-softa', 'priority': 'DEFAULT', 'status': 'APPROVED', 'name': '💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀', 'price': 100, 'rawPrice': 150, 'statusExpirationDate': '2026-10-01T20:06:22.077Z', 'sellerType': 'USER', 'attachment': {'id': '1f18f827-79ec-63d0-fbdf-f33205485148', 'url': 'https://i.playerok.com/YB7CX242usf8NzNn42x_LxnjQ_dU66tQoJCiK_30_Zc/wm:0.8:soea:5:2:0.2/rs:fill:0:300:1/g:no/quality:99/czM6Ly9wbGF5ZXJvay8vaW1hZ2VzLzFmMThmODI3LTc5ZWMtNjNkMC1mYmRmLWYzMzIwNTQ4NTE0OC5wbmc.jpg', '__typename': 'File'}, 'isAttachmentsForbidden': False, 'user': {'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'username': 'baraban09', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f11cb4c-a623-6200-5412-b3c3b7b5a635.jpg?timestamp=1773169824', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 96, 'createdAt': '2026-03-10T19:05:10.973Z', 'supportChatId': '1f11cb49-0656-6092-961b-8c9210189b01', 'systemChatId': '1f11cb49-0656-6090-a386-a7cbcdf107d0', '__typename': 'UserFragment'}, 'game': {'name': 'Roblox', '__typename': 'GameProfile'}, 'category': {'name': 'Буст', '__typename': 'GameCategoryProfile'}, 'approvalDate': '2026-09-01T20:06:22.077Z', 'createdAt': '2026-08-03T21:29:54.376Z', 'priorityPosition': 0, 'viewsCounter': 16, 'dealsCounter': 4, 'keepInSale': False, 'feeMultiplier': 0.2, 'isAutomated': False, '__typename': 'MyItemProfile'}, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 21:16:33] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:16:33] INFO · universal.playerok   Новая сделка 1f1a6fa6-76b3-64f0-c2ed-9b4845258cf4:
+[02.09.2026 21:16:33] INFO · universal.playerok    · Покупатель: blovv
+[02.09.2026 21:16:33] INFO · universal.playerok    · Товар: 💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀
+[02.09.2026 21:16:33] INFO · universal.playerok    · Сумма: 100₽
+[02.09.2026 21:16:33] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:16:33] WARNING · tiktok_smm           [tiktok_smm] EVENT NEW_DEAL received
+[02.09.2026 21:16:33] WARNING · tiktok_smm           [tiktok_smm] NEW_DEAL deal=1f1a6fa6-76b3-64f0-c2ed-9b4845258cf4 item=1f1a6fa6-771c-64a0-ccc3-4eb346394e3a chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 21:16:33] WARNING · tiktok_smm           [tiktok_smm] ignored: item 1f1a6fa6-771c-64a0-ccc3-4eb346394e3a is not bound. bound=['1f18f827-7ce5-6f50-cf26-2e4b53df49b3']
+[02.09.2026 21:16:36] INFO · universal.playerok   «💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстр...» — товар восстановлен (статус: бесплатный)
+[02.09.2026 21:16:49] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 21:16:49] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 21:17:22] DEBUG · playerokapi.listener WS -> {'id': '444afc99-7b1c-4075-9c4c-e7de383619fa', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 21:19:49] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 21:19:50] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 21:54:03] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 21:54:04] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 21:54:04] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[02.09.2026 21:54:04] INFO · universal            
+[02.09.2026 21:54:04] INFO · universal            Playerok аккаунт успешно авторизован.
+[02.09.2026 21:54:05] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[02.09.2026 21:54:05] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[02.09.2026 21:54:05] INFO · universal            Telegram бот успешно работает.
+[02.09.2026 21:54:05] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:54:05] WARNING · tiktok_smm           [tiktok_smm] READY: Playerok event handlers registered
+[02.09.2026 21:54:05] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.5.0
+[02.09.2026 21:54:05] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:54:06] INFO · universal.telegram   
+[02.09.2026 21:54:06] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[02.09.2026 21:54:06] INFO · universal.playerok   
+[02.09.2026 21:54:06] INFO · universal.playerok   Playerok бот запущен и активен
+[02.09.2026 21:54:06] INFO · universal.playerok   
+[02.09.2026 21:54:06] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:54:06] INFO · universal.playerok   Информация об аккаунте:
+[02.09.2026 21:54:06] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[02.09.2026 21:54:06] INFO · universal.playerok    · Никнейм: baraban09
+[02.09.2026 21:54:06] INFO · universal.playerok    · Баланс: 37.6₽
+[02.09.2026 21:54:06] INFO · universal.playerok      · Доступно: 37.6₽
+[02.09.2026 21:54:06] INFO · universal.playerok      · В ожидании: 0₽
+[02.09.2026 21:54:06] INFO · universal.playerok      · Заморожено: 0₽
+[02.09.2026 21:54:06] INFO · universal.playerok    · Активные продажи: 0
+[02.09.2026 21:54:06] INFO · universal.playerok    · Активные покупки: 0
+[02.09.2026 21:54:06] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:54:06] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:54:06] WARNING · tiktok_smm           [tiktok_smm] READY: PlayerokBot initialized; listening for NEW_DEAL
+[02.09.2026 21:54:06] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:54:07] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[02.09.2026 21:56:18] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 21:56:18] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 21:56:18] INFO · universal.updater    У вас установлена последняя версия: 1.20
+[02.09.2026 21:56:18] INFO · universal            
+[02.09.2026 21:56:19] INFO · universal            Playerok аккаунт успешно авторизован.
+[02.09.2026 21:56:19] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.telegram.org:443
+[02.09.2026 21:56:19] DEBUG · urllib3.connectionpool https://api.telegram.org:443 "GET /bot8978159074:AAECIGUfdvNl2tUBV3WUtrEwmAn8AnyrWmo/getMe HTTP/1.1" 200 409
+[02.09.2026 21:56:20] INFO · universal            Telegram бот успешно работает.
+[02.09.2026 21:56:20] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:56:20] WARNING · tiktok_smm           [tiktok_smm] READY: Playerok event handlers registered
+[02.09.2026 21:56:20] INFO · universal.modules    Подключен 1 модуль: TikTok SMM Automation 1.5.0
+[02.09.2026 21:56:20] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:56:20] INFO · universal.playerok   
+[02.09.2026 21:56:20] INFO · universal.playerok   Playerok бот запущен и активен
+[02.09.2026 21:56:20] INFO · universal.playerok   
+[02.09.2026 21:56:20] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:56:20] INFO · universal.playerok   Информация об аккаунте:
+[02.09.2026 21:56:20] INFO · universal.playerok    · ID: 1f11cb40-fc92-6ed0-188a-b18a5df170ac
+[02.09.2026 21:56:20] INFO · universal.playerok    · Никнейм: baraban09
+[02.09.2026 21:56:20] INFO · universal.playerok    · Баланс: 37.6₽
+[02.09.2026 21:56:20] INFO · universal.playerok      · Доступно: 37.6₽
+[02.09.2026 21:56:20] INFO · universal.playerok      · В ожидании: 0₽
+[02.09.2026 21:56:20] INFO · universal.playerok      · Заморожено: 0₽
+[02.09.2026 21:56:20] INFO · universal.playerok    · Активные продажи: 0
+[02.09.2026 21:56:20] INFO · universal.playerok    · Активные покупки: 0
+[02.09.2026 21:56:20] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 21:56:20] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:56:20] WARNING · tiktok_smm           [tiktok_smm] READY: PlayerokBot initialized; listening for NEW_DEAL
+[02.09.2026 21:56:20] DEBUG · asyncio              Using proactor: IocpProactor
+[02.09.2026 21:56:20] INFO · universal.telegram   
+[02.09.2026 21:56:20] INFO · universal.telegram   Telegram бот @funpayslvl_bot запущен и активен
+[02.09.2026 21:56:21] DEBUG · playerokapi.listener WS -> {'type': 'connection_ack'}
+[02.09.2026 21:59:20] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 21:59:20] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 22:02:20] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 22:02:21] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 22:05:21] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 22:05:21] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 22:05:34] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:05:34] DEBUG · playerokapi.listener WS -> {'id': '7f7dd41b-cae4-4b45-a6a0-8a738d84eb55', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a7014-5be4-67a0-975e-4199c94b8494', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:05:33.210Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': None, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 22:05:34] DEBUG · playerokapi.listener WS -> {'id': '8dd5873e-2604-48b2-af9f-d36a031013a3', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a7014-5be4-67a0-975e-4199c94b8494', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:05:33.210Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': None, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 22:05:41] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:05:41] INFO · universal.playerok   Новая сделка 1f1a7014-5a9a-6e30-7cd1-dd9c00e5654e:
+[02.09.2026 22:05:41] INFO · universal.playerok    · Покупатель: blovv
+[02.09.2026 22:05:41] INFO · universal.playerok    · Товар: 💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀
+[02.09.2026 22:05:41] INFO · universal.playerok    · Сумма: 100₽
+[02.09.2026 22:05:41] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:05:41] WARNING · tiktok_smm           [tiktok_smm] EVENT NEW_DEAL received
+[02.09.2026 22:05:41] WARNING · tiktok_smm           [tiktok_smm] NEW_DEAL deal=1f1a7014-5a9a-6e30-7cd1-dd9c00e5654e item=1f1a7014-5b59-6510-d13b-f801e5910f20 chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 22:05:41] WARNING · tiktok_smm           [tiktok_smm] ignored: item=1f1a7014-5b59-6510-d13b-f801e5910f20 name='💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀' has no matching keyphrase. keyphrases=['tiktok', 'тик ток', 'тикток']
+[02.09.2026 22:05:44] INFO · universal.playerok   «💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстр...» — товар восстановлен (статус: бесплатный)
+[02.09.2026 22:06:16] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 22:06:35] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:06:35] DEBUG · playerokapi.listener WS -> {'id': '8dd5873e-2604-48b2-af9f-d36a031013a3', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a7016-a131-6f40-7898-c77381e3241a', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:06:34.164Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': None, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 22:06:35] DEBUG · playerokapi.listener WS -> {'id': '7f7dd41b-cae4-4b45-a6a0-8a738d84eb55', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a7016-a131-6f40-7898-c77381e3241a', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:06:34.164Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': None, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 22:06:42] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:06:42] INFO · universal.playerok   Новая сделка 1f1a7016-a07d-64a0-7fe2-68d1eb7d1f62:
+[02.09.2026 22:06:42] INFO · universal.playerok    · Покупатель: blovv
+[02.09.2026 22:06:42] INFO · universal.playerok    · Товар: 💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀
+[02.09.2026 22:06:42] INFO · universal.playerok    · Сумма: 100₽
+[02.09.2026 22:06:42] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:06:42] WARNING · tiktok_smm           [tiktok_smm] EVENT NEW_DEAL received
+[02.09.2026 22:06:42] WARNING · tiktok_smm           [tiktok_smm] NEW_DEAL deal=1f1a7016-a07d-64a0-7fe2-68d1eb7d1f62 item=1f1a7016-a0da-6100-233f-2e48855fe582 chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 22:06:42] WARNING · tiktok_smm           [tiktok_smm] matched item=1f1a7016-a0da-6100-233f-2e48855fe582 name='💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀' by keyphrase='буст'
+[02.09.2026 22:06:42] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 22:06:42] WARNING · tiktok_smm           [tiktok_smm] LINK REQUEST SENT: deal=1f1a7016-a07d-64a0-7fe2-68d1eb7d1f62 chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 22:06:47] INFO · universal.playerok   «💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстр...» — товар восстановлен (статус: бесплатный)
+[02.09.2026 22:06:55] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:06:55] DEBUG · playerokapi.listener WS -> {'id': '8dd5873e-2604-48b2-af9f-d36a031013a3', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a7017-5cef-67a0-d0e1-39033cf0146c', 'text': 'https://vt.tiktok.com/ZSq1U11aa/', 'createdAt': '2026-09-02T19:06:53.850Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 22:06:55] DEBUG · playerokapi.listener WS -> {'id': '7f7dd41b-cae4-4b45-a6a0-8a738d84eb55', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a7017-5cef-67a0-d0e1-39033cf0146c', 'text': 'https://vt.tiktok.com/ZSq1U11aa/', 'createdAt': '2026-09-02T19:06:53.850Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': True, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 22:06:55] INFO · universal.playerok   Новое сообщение в чате с blovv:
+[02.09.2026 22:06:55] INFO · universal.playerok   │ blovv:
+[02.09.2026 22:06:55] INFO · universal.playerok   │ https://vt.tiktok.com/ZSq1U11aa/
+[02.09.2026 22:06:55] INFO · universal.playerok   └──────────────────────────────────
+[02.09.2026 22:06:55] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:06:56] ERROR · tiktok_smm           [tiktok_smm] TikTok SMM failed for deal=1f1a7016-a07d-64a0-7fe2-68d1eb7d1f62: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\handlers.py", line 285, in on_new_message
+    created[name] = await create_order(s.get(name), text, quantity)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\handlers.py", line 136, in create_order
+    r = await api_call(action="add", service=int(service_id), link=link, quantity=quantity)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\handlers.py", line 127, in api_call
+    return await asyncio.to_thread(_api_sync, params, int(c.get("never_smm", {}).get("timeout", 30)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\handlers.py", line 116, in _api_sync
+    with urlopen(req, timeout=timeout) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+[02.09.2026 22:06:56] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 22:08:21] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 22:08:21] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 22:08:38] DEBUG · playerokapi.listener WS -> {'id': '8dd5873e-2604-48b2-af9f-d36a031013a3', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a701b-3590-6e80-d186-aecdc4510796', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:08:37.096Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': None, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 22:08:38] DEBUG · playerokapi.listener WS -> {'id': '7f7dd41b-cae4-4b45-a6a0-8a738d84eb55', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a701b-3590-6e80-d186-aecdc4510796', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:08:37.096Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': None, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 22:08:38] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:08:48] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:08:48] INFO · universal.playerok   Новая сделка 1f1a701b-34ba-6100-7b3c-7c431a72a588:
+[02.09.2026 22:08:48] INFO · universal.playerok    · Покупатель: blovv
+[02.09.2026 22:08:48] INFO · universal.playerok    · Товар: 💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀
+[02.09.2026 22:08:48] INFO · universal.playerok    · Сумма: 100₽
+[02.09.2026 22:08:48] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:08:48] WARNING · tiktok_smm           [tiktok_smm] EVENT NEW_DEAL received
+[02.09.2026 22:08:48] WARNING · tiktok_smm           [tiktok_smm] NEW_DEAL deal=1f1a701b-34ba-6100-7b3c-7c431a72a588 item=1f1a701b-352f-6400-8743-de67cfac9176 chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 22:08:48] WARNING · tiktok_smm           [tiktok_smm] matched item=1f1a701b-352f-6400-8743-de67cfac9176 name='💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀' by keyphrase='буст'
+[02.09.2026 22:08:48] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 22:08:48] WARNING · tiktok_smm           [tiktok_smm] LINK REQUEST SENT: deal=1f1a701b-34ba-6100-7b3c-7c431a72a588 chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 22:08:52] INFO · universal.playerok   «💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстр...» — товар восстановлен (статус: бесплатный)
+[02.09.2026 22:08:53] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:08:53] DEBUG · playerokapi.listener WS -> {'id': '7f7dd41b-cae4-4b45-a6a0-8a738d84eb55', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a701b-c468-64a0-c846-13acae0477cc', 'text': 'https://vt.tiktok.com/ZSq1U11aa/', 'createdAt': '2026-09-02T19:08:52.075Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': False, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 22:08:53] DEBUG · playerokapi.listener WS -> {'id': '8dd5873e-2604-48b2-af9f-d36a031013a3', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a701b-c468-64a0-c846-13acae0477cc', 'text': 'https://vt.tiktok.com/ZSq1U11aa/', 'createdAt': '2026-09-02T19:08:52.075Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': False, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 22:08:53] INFO · universal.playerok   Новое сообщение в чате с blovv:
+[02.09.2026 22:08:53] INFO · universal.playerok   │ blovv:
+[02.09.2026 22:08:53] INFO · universal.playerok   │ https://vt.tiktok.com/ZSq1U11aa/
+[02.09.2026 22:08:53] INFO · universal.playerok   └──────────────────────────────────
+[02.09.2026 22:08:53] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 22:08:54] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:08:55] INFO · tiktok_smm           [tiktok_smm] Completed deal=1f1a701b-34ba-6100-7b3c-7c431a72a588 orders={'shares': '460223'}
+[02.09.2026 22:11:21] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 22:11:22] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 22:12:11] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:13:44] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:13:44] DEBUG · playerokapi.listener WS -> {'id': '7f7dd41b-cae4-4b45-a6a0-8a738d84eb55', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a7026-9ce5-68a0-0bf4-67e23a3bc44d', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:13:43.210Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': None, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 22:13:44] DEBUG · playerokapi.listener WS -> {'id': '8dd5873e-2604-48b2-af9f-d36a031013a3', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a7026-9ce5-68a0-0bf4-67e23a3bc44d', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:13:43.210Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': None, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 22:13:51] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:13:51] INFO · universal.playerok   Новая сделка 1f1a7026-9c29-68d0-30fa-e3c130f411c6:
+[02.09.2026 22:13:51] INFO · universal.playerok    · Покупатель: blovv
+[02.09.2026 22:13:51] INFO · universal.playerok    · Товар: 💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀
+[02.09.2026 22:13:51] INFO · universal.playerok    · Сумма: 100₽
+[02.09.2026 22:13:51] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:13:51] WARNING · tiktok_smm           [tiktok_smm] EVENT NEW_DEAL received
+[02.09.2026 22:13:51] WARNING · tiktok_smm           [tiktok_smm] NEW_DEAL deal=1f1a7026-9c29-68d0-30fa-e3c130f411c6 item=1f1a7026-9c92-6880-be36-b97504d7d5a6 chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 22:13:51] WARNING · tiktok_smm           [tiktok_smm] matched item=1f1a7026-9c92-6880-be36-b97504d7d5a6 name='💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀' by keyphrase='буст'
+[02.09.2026 22:13:51] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 22:13:51] WARNING · tiktok_smm           [tiktok_smm] LINK REQUEST SENT: deal=1f1a7026-9c29-68d0-30fa-e3c130f411c6 chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 22:13:54] INFO · universal.playerok   «💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстр...» — товар восстановлен (статус: бесплатный)
+[02.09.2026 22:14:05] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:14:05] DEBUG · playerokapi.listener WS -> {'id': '7f7dd41b-cae4-4b45-a6a0-8a738d84eb55', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a7027-61e0-6c90-7bab-875661f32c1b', 'text': 'https://vt.tiktok.com/ZSq1U11aa/', 'createdAt': '2026-09-02T19:14:03.865Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': False, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 22:14:05] DEBUG · playerokapi.listener WS -> {'id': '8dd5873e-2604-48b2-af9f-d36a031013a3', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a7027-61e0-6c90-7bab-875661f32c1b', 'text': 'https://vt.tiktok.com/ZSq1U11aa/', 'createdAt': '2026-09-02T19:14:03.865Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': False, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 22:14:05] INFO · universal.playerok   Новое сообщение в чате с blovv:
+[02.09.2026 22:14:05] INFO · universal.playerok   │ blovv:
+[02.09.2026 22:14:05] INFO · universal.playerok   │ https://vt.tiktok.com/ZSq1U11aa/
+[02.09.2026 22:14:05] INFO · universal.playerok   └──────────────────────────────────
+[02.09.2026 22:14:05] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 22:14:06] ERROR · tiktok_smm           [tiktok_smm] TikTok SMM failed for deal=1f1a7026-9c29-68d0-30fa-e3c130f411c6: HTTP Error 400: Bad Request
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\handlers.py", line 285, in on_new_message
+    created[name] = await create_order(s.get(name), text, quantity)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\handlers.py", line 136, in create_order
+    r = await api_call(action="add", service=int(service_id), link=link, quantity=quantity)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\handlers.py", line 127, in api_call
+    return await asyncio.to_thread(_api_sync, params, int(c.get("never_smm", {}).get("timeout", 30)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\playerok-universal-main\modules\tiktok_smm\handlers.py", line 116, in _api_sync
+    with urlopen(req, timeout=timeout) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+[02.09.2026 22:14:06] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:14:22] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 22:14:22] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 22:17:22] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 22:17:22] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 22:19:18] DEBUG · playerokapi.listener WS -> {'id': '7f7dd41b-cae4-4b45-a6a0-8a738d84eb55', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a7033-12d2-6a20-dc82-8fbc6f1f3acb', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:19:17.698Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': None, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 22:19:18] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:19:18] DEBUG · playerokapi.listener WS -> {'id': '8dd5873e-2604-48b2-af9f-d36a031013a3', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a7033-12d2-6a20-dc82-8fbc6f1f3acb', 'text': '{{ITEM_PAID}}', 'createdAt': '2026-09-02T19:19:17.698Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': None, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 22:19:25] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:19:25] INFO · universal.playerok   Новая сделка 1f1a7033-123b-6440-ca0b-66f625c320bf:
+[02.09.2026 22:19:25] INFO · universal.playerok    · Покупатель: blovv
+[02.09.2026 22:19:25] INFO · universal.playerok    · Товар: 💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀
+[02.09.2026 22:19:25] INFO · universal.playerok    · Сумма: 100₽
+[02.09.2026 22:19:25] INFO · universal.playerok   ───────────────────────────────────────
+[02.09.2026 22:19:25] WARNING · tiktok_smm           [tiktok_smm] EVENT NEW_DEAL received
+[02.09.2026 22:19:25] WARNING · tiktok_smm           [tiktok_smm] NEW_DEAL deal=1f1a7033-123b-6440-ca0b-66f625c320bf item=1f1a7033-1284-6820-a256-abf8b18c678c chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 22:19:25] WARNING · tiktok_smm           [tiktok_smm] matched item=1f1a7033-1284-6820-a256-abf8b18c678c name='💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстро и Без Софта 🚀' by keyphrase='буст'
+[02.09.2026 22:19:25] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 22:19:26] WARNING · tiktok_smm           [tiktok_smm] LINK REQUEST SENT: deal=1f1a7033-123b-6440-ca0b-66f625c320bf chat=1f126cde-b97e-6eb0-02c5-54bafd8c9ebd
+[02.09.2026 22:19:29] INFO · universal.playerok   «💎 БУСТ ДО ЗОЛОТА 1 В 1V1 | Быстр...» — товар восстановлен (статус: бесплатный)
+[02.09.2026 22:19:34] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:19:34] DEBUG · playerokapi.listener WS -> {'id': '7f7dd41b-cae4-4b45-a6a0-8a738d84eb55', 'type': 'next', 'payload': {'data': {'chatUpdated': {'id': '1f126cde-b97e-6eb0-02c5-54bafd8c9ebd', 'unreadMessagesCounter': 0, 'isTextingAllowed': True, 'lastMessage': {'id': '1f1a7033-a39e-6810-c507-4dd88d909ebe', 'text': 'https://vt.tiktok.com/ZSq1U11aa/', 'createdAt': '2026-09-02T19:19:32.881Z', 'isRead': False, 'isBulkMessaging': False, 'event': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': False, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'eventByUser': None, 'eventToUser': None, 'deal': None, '__typename': 'ChatMessage'}, 'status': None, 'startedAt': None, 'finishedAt': None, '__typename': 'Chat'}}}}
+[02.09.2026 22:19:34] DEBUG · playerokapi.listener WS -> {'id': '8dd5873e-2604-48b2-af9f-d36a031013a3', 'type': 'next', 'payload': {'data': {'chatMessageCreated': {'id': '1f1a7033-a39e-6810-c507-4dd88d909ebe', 'text': 'https://vt.tiktok.com/ZSq1U11aa/', 'createdAt': '2026-09-02T19:19:32.881Z', 'deletedAt': None, 'isRead': False, 'isSuspicious': False, 'isBulkMessaging': False, 'game': None, 'file': None, 'user': {'id': '1f01c24d-5a0f-6020-3210-af4cbe50081f', 'username': 'blovv', 'role': 'USER', 'avatarURL': 'https://playerok.fra1.digitaloceanspaces.com/images/1f01c62d-0158-6790-904b-79a298575854.jpg?timestamp=1771607539', 'isOnline': False, 'isBlocked': False, 'rating': 5, 'testimonialCounter': 411, 'createdAt': '2025-04-18T07:14:57.698Z', 'supportChatId': None, 'systemChatId': None, '__typename': 'UserFragment'}, 'deal': None, 'item': None, 'transaction': None, 'moderator': None, 'eventByUser': None, 'eventToUser': None, 'isAutoResponse': False, 'event': None, 'buttons': None, 'images': [], 'imageLinks': [], 'uncensorInfo': None, 'plTokenAmount': None, '__typename': 'ChatMessage'}}}}
+[02.09.2026 22:19:34] INFO · universal.playerok   Новое сообщение в чате с blovv:
+[02.09.2026 22:19:34] INFO · universal.playerok   │ blovv:
+[02.09.2026 22:19:34] INFO · universal.playerok   │ https://vt.tiktok.com/ZSq1U11aa/
+[02.09.2026 22:19:34] INFO · universal.playerok   └──────────────────────────────────
+[02.09.2026 22:19:34] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 0}}}}
+[02.09.2026 22:19:39] DEBUG · playerokapi.listener WS -> {'id': 'f6bb4718-b639-478d-880e-f6760f5deb8e', 'type': 'next', 'payload': {'data': {'userUpdated': {'__typename': 'User', 'id': '1f11cb40-fc92-6ed0-188a-b18a5df170ac', 'unreadChatsCounter': 1}}}}
+[02.09.2026 22:19:39] INFO · tiktok_smm           [tiktok_smm] Completed deal=1f1a7033-123b-6440-ca0b-66f625c320bf orders={'saves': '460232', 'shares': '460233'}
+[02.09.2026 22:20:22] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 22:20:23] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[02.09.2026 22:23:23] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[02.09.2026 22:23:23] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[03.09.2026 15:09:45] DEBUG · urllib3.connectionpool Starting new HTTPS connection (1): api.github.com:443
+[03.09.2026 15:09:45] DEBUG · urllib3.connectionpool https://api.github.com:443 "GET /repos/alleexxeeyy/playerok-universal/releases HTTP/1.1" 200 5642
+[03.09.2026 15:09:45] INFO · universal.updater    У вас установлена последняя версия: 1.20

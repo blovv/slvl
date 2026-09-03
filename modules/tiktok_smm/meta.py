@@ -1,0 +1,6 @@
+PREFIX = "tiktok_smm"
+VERSION = "1.5.0"
+NAME = "TikTok SMM Automation"
+DESCRIPTION = "Автоматическая выдача TikTok SMM после покупки привязанного товара Playerok."
+AUTHORS = "OpenAI"
+LINKS = ""
